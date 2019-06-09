@@ -22,9 +22,9 @@ FindProxyForURL = function(url, host) {
 now, we can access challenge page !
 
 ### 2. DNS Rebinding.
-if you send a URL, the bot access to the URL. and you look at the referer of http header, you can see that it starts from the internal IP address. (ex: 10.x.x.x)
+if you send a URL, the bot access to the URL. And you look at the referer of http header, you can see that it starts from the internal IP address. (ex: 10.x.x.x)
 
-I tried DNS rebinding because I could not access the internal page using XHR because of SOP(same origin policy).
+I tried DNS rebinding. I could not access the internal page using XHR because of SOP(same origin policy).
 
 > 1. Send my server Address ( ex: `[A.hacker.com]` == my server address )
 > 2. Check the bot's connection and referer header(Internal Address).
@@ -67,7 +67,7 @@ setTimeout(function() {
 
 ### 3. SQL Injection.
 
-Now We can see the internal page ! and It looks like a SQL injection !
+Now We can see the internal page ! And It looks like a SQL injection !
 
 - response html
 ```html
