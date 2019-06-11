@@ -32,5 +32,5 @@ print repr(cookie)
 ```
 
 
-> flag : # HITB{Py5h0n1st8eBe3tNOW}
+> flag : HITB{Py5h0n1st8eBe3tNOW}
 
